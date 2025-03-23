@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color: #050807;
+}
+
+p{
+  color: #79BC2A;
+  text-align: center;
+}
+
+img{
+  height: 300px;
+  width: 220px;
+}
+
+#relogio{
+  margin-top: 100px;
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3e3e3e;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+    text-align: center;
+    border-bottom: none;
+    display: inline;
+  } 
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 85px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #79BC2A;
+  }
+
+  .active {
+    background-color: #79BC2A
+  }
